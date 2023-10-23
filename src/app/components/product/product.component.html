@@ -1,0 +1,7 @@
+<a class="card" *ngIf="product">
+    <img alt="Image" [ngSrc]="product.images[0]" width="150" height="150"/>
+    <div class="product-text">
+      <p>{{product.title}}</p>
+      <strong>$ {{product.price}}</strong>
+    </div>
+</a>
